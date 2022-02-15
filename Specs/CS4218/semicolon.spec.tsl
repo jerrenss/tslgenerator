@@ -1,0 +1,62 @@
+
+Test Case 1  		<single>
+   Semicolon variant :  Extra semicolon at start
+
+
+Test Case 2  		<single>
+   Semicolon variant :  Extra semicolon at end
+
+
+Test Case 3  		<error>
+   Semicolon variant :  Duplicated semicolons at start
+
+
+Test Case 4  		<error>
+   Semicolon variant :  Duplicated semicolons at end
+
+
+Test Case 5  		<error>
+   Semicolon variant :  Duplicated semicolons in between
+
+
+Test Case 6  		<single>
+   Semicolon variant :  Single semicolon with no commands
+
+
+Test Case 7  		<error>
+   Semicolon variant :  Duplicated semicolons with no commands
+
+
+Test Case 8  		<single>
+   Semicolon variant :  Multiple semicolons with space in between
+
+
+Test Case 9  		(Key = 1.1.0.)
+   Command Variant   :  Single
+   Command Response  :  All successful
+   Semicolon variant :  <n/a>
+
+
+Test Case 10 		(Key = 1.2.0.)
+   Command Variant   :  Single
+   Command Response  :  At least one throwing exception
+   Semicolon variant :  <n/a>
+
+
+Test Case 11 		(Key = 2.1.0.)
+   Command Variant   :  Multiple
+   Command Response  :  All successful
+   Semicolon variant :  <n/a>
+
+
+Test Case 12 		(Key = 2.2.0.)
+   Command Variant   :  Multiple
+   Command Response  :  At least one throwing exception
+   Semicolon variant :  <n/a>
+
+
+Test Case 13 		(Key = 2.3.0.)
+   Command Variant   :  Multiple
+   Command Response  :  All throwing exception
+   Semicolon variant :  <n/a>
+
