@@ -1,10 +1,9 @@
 # Flags
   Flag Variant:
+      None.
       r.
       d.
-      rd.
-      dr.
-      None.
+      rd.   [single]
       Flags other than r and d.     [error]
 
 # Files

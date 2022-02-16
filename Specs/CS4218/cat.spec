@@ -12,10 +12,12 @@
       No file.
 
 # Stdin
-  Stdin variant:
-      Present.      [property hasStdin]
-      Absent.
-  Stdin location:
+  Hyphen variant:
+      1.      [property hasStdin]
+      0.
+      More than 1.    [single]
+
+  Hyphen location:
       Before file.       [if hasStdin][single]
       Before files.       [if hasStdin][single]
       After file.        [if hasStdin][single]
