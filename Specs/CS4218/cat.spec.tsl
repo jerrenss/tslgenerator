@@ -3,112 +3,124 @@ Test Case 1  		<error>
    Flag Variant :  Flags other than r and d
 
 
-Test Case 2  		<single>
-   File variant :  No such file
+Test Case 2  		<error>
+   File variant :  Non existent file
 
 
-Test Case 3  		<single>
+Test Case 3  		<error>
+   File variant :  Multiple files with some non-existent
+
+
+Test Case 4  		<error>
+   File variant :  Single folder
+
+
+Test Case 5  		<error>
+   File variant :  Multiple files with a folder
+
+
+Test Case 6  		<single>
    Hyphen variant :  More than 1
 
 
-Test Case 4  		<single>  (follows [if])
+Test Case 7  		<single>  (follows [if])
    Hyphen location :  Before file
 
 
-Test Case 5  		<single>  (follows [if])
+Test Case 8  		<single>  (follows [if])
    Hyphen location :  Before files
 
 
-Test Case 6  		<single>  (follows [if])
+Test Case 9  		<single>  (follows [if])
    Hyphen location :  After file
 
 
-Test Case 7  		<single>  (follows [if])
+Test Case 10 		<single>  (follows [if])
    Hyphen location :  After files
 
 
-Test Case 8  		<single>  (follows [if])
+Test Case 11 		<single>  (follows [if])
    Hyphen location :  Between files
 
 
-Test Case 9  		(Key = 1.1.1.0.)
+Test Case 12 		(Key = 1.1.1.0.)
    Flag Variant    :  n
    File variant    :  Single file
    Hyphen variant  :  1
    Hyphen location :  <n/a>
 
 
-Test Case 10 		(Key = 1.1.2.0.)
+Test Case 13 		(Key = 1.1.2.0.)
    Flag Variant    :  n
    File variant    :  Single file
    Hyphen variant  :  0
    Hyphen location :  <n/a>
 
 
-Test Case 11 		(Key = 1.2.1.0.)
+Test Case 14 		(Key = 1.2.1.0.)
    Flag Variant    :  n
    File variant    :  Multiple files
    Hyphen variant  :  1
    Hyphen location :  <n/a>
 
 
-Test Case 12 		(Key = 1.2.2.0.)
+Test Case 15 		(Key = 1.2.2.0.)
    Flag Variant    :  n
    File variant    :  Multiple files
    Hyphen variant  :  0
    Hyphen location :  <n/a>
 
 
-Test Case 13 		(Key = 1.4.1.0.)
+Test Case 16 		(Key = 1.5.1.0.)
    Flag Variant    :  n
    File variant    :  No file
    Hyphen variant  :  1
    Hyphen location :  <n/a>
 
 
-Test Case 14 		(Key = 1.4.2.0.)
+Test Case 17 		(Key = 1.5.2.0.)
    Flag Variant    :  n
    File variant    :  No file
    Hyphen variant  :  0
    Hyphen location :  <n/a>
 
 
-Test Case 15 		(Key = 2.1.1.0.)
+Test Case 18 		(Key = 2.1.1.0.)
    Flag Variant    :  None
    File variant    :  Single file
    Hyphen variant  :  1
    Hyphen location :  <n/a>
 
 
-Test Case 16 		(Key = 2.1.2.0.)
+Test Case 19 		(Key = 2.1.2.0.)
    Flag Variant    :  None
    File variant    :  Single file
    Hyphen variant  :  0
    Hyphen location :  <n/a>
 
 
-Test Case 17 		(Key = 2.2.1.0.)
+Test Case 20 		(Key = 2.2.1.0.)
    Flag Variant    :  None
    File variant    :  Multiple files
    Hyphen variant  :  1
    Hyphen location :  <n/a>
 
 
-Test Case 18 		(Key = 2.2.2.0.)
+Test Case 21 		(Key = 2.2.2.0.)
    Flag Variant    :  None
    File variant    :  Multiple files
    Hyphen variant  :  0
    Hyphen location :  <n/a>
 
 
-Test Case 19 		(Key = 2.4.1.0.)
+Test Case 22 		(Key = 2.5.1.0.)
    Flag Variant    :  None
    File variant    :  No file
    Hyphen variant  :  1
    Hyphen location :  <n/a>
 
 
-Test Case 20 		(Key = 2.4.2.0.)
+Test Case 23 		(Key = 2.5.2.0.)
    Flag Variant    :  None
    File variant    :  No file
    Hyphen variant  :  0

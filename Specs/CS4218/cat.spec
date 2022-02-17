@@ -8,8 +8,11 @@
   File variant:
       Single file.
       Multiple files.
-      No such file.     [single]
+      Non existent file.     [error]
+      Multiple files with some non-existent.   [error]
       No file.
+      Single folder.   [error]
+      Multiple files with a folder.    [error]
 
 # Stdin
   Hyphen variant:
