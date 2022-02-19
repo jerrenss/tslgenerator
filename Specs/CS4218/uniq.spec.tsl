@@ -4,262 +4,204 @@ Test Case 1  		<single>
 
 
 Test Case 2  		<error>
-   Flag Variant :  Flags other than r and d
+   Flag Variant :  Flags other than c, d and D
 
 
 Test Case 3  		<error>
    Input file :  Non-existent file
 
 
-Test Case 4  		<error>  (follows [if])
+Test Case 4  		<error>
+   Input file :  Folder
+
+
+Test Case 5  		<single>  (follows [if])
    Output file :  Non-existent file
 
 
-Test Case 5  		<error>
+Test Case 6  		<error>  (follows [if])
+   Output file :  Folder
+
+
+Test Case 7  		<single>  (follows [if])
+   Output file :  Hyphen
+
+
+Test Case 8  		<error>
    Edge Case :  More than 2 operands
 
 
-Test Case 6  		(Key = 1.1.1.0.)
+Test Case 9  		(Key = 1.1.1.0.)
    Flag Variant :  None
    Input file   :  Single file
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 7  		(Key = 1.1.3.0.)
+Test Case 10 		(Key = 1.1.4.0.)
    Flag Variant :  None
    Input file   :  Single file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 8  		(Key = 1.1.4.0.)
-   Flag Variant :  None
-   Input file   :  Single file
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 9  		(Key = 1.3.3.0.)
+Test Case 11 		(Key = 1.4.4.0.)
    Flag Variant :  None
    Input file   :  No file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 10 		(Key = 1.4.1.0.)
+Test Case 12 		(Key = 1.5.1.0.)
    Flag Variant :  None
    Input file   :  Hyphen
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 11 		(Key = 1.4.3.0.)
+Test Case 13 		(Key = 1.5.4.0.)
    Flag Variant :  None
    Input file   :  Hyphen
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 12 		(Key = 1.4.4.0.)
-   Flag Variant :  None
-   Input file   :  Hyphen
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 13 		(Key = 2.1.1.0.)
+Test Case 14 		(Key = 2.1.1.0.)
    Flag Variant :  c
    Input file   :  Single file
    Output file  :  Single file
-   Edge Case    :  <n/a>
-
-
-Test Case 14 		(Key = 2.1.3.0.)
-   Flag Variant :  c
-   Input file   :  Single file
-   Output file  :  No file
    Edge Case    :  <n/a>
 
 
 Test Case 15 		(Key = 2.1.4.0.)
    Flag Variant :  c
    Input file   :  Single file
-   Output file  :  Hyphen
+   Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 16 		(Key = 2.3.3.0.)
+Test Case 16 		(Key = 2.4.4.0.)
    Flag Variant :  c
    Input file   :  No file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 17 		(Key = 2.4.1.0.)
+Test Case 17 		(Key = 2.5.1.0.)
    Flag Variant :  c
    Input file   :  Hyphen
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 18 		(Key = 2.4.3.0.)
+Test Case 18 		(Key = 2.5.4.0.)
    Flag Variant :  c
    Input file   :  Hyphen
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 19 		(Key = 2.4.4.0.)
-   Flag Variant :  c
-   Input file   :  Hyphen
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 20 		(Key = 3.1.1.0.)
+Test Case 19 		(Key = 3.1.1.0.)
    Flag Variant :  d
    Input file   :  Single file
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 21 		(Key = 3.1.3.0.)
+Test Case 20 		(Key = 3.1.4.0.)
    Flag Variant :  d
    Input file   :  Single file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 22 		(Key = 3.1.4.0.)
-   Flag Variant :  d
-   Input file   :  Single file
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 23 		(Key = 3.3.3.0.)
+Test Case 21 		(Key = 3.4.4.0.)
    Flag Variant :  d
    Input file   :  No file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 24 		(Key = 3.4.1.0.)
+Test Case 22 		(Key = 3.5.1.0.)
    Flag Variant :  d
    Input file   :  Hyphen
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 25 		(Key = 3.4.3.0.)
+Test Case 23 		(Key = 3.5.4.0.)
    Flag Variant :  d
    Input file   :  Hyphen
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 26 		(Key = 3.4.4.0.)
-   Flag Variant :  d
-   Input file   :  Hyphen
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 27 		(Key = 4.1.1.0.)
+Test Case 24 		(Key = 4.1.1.0.)
    Flag Variant :  D
    Input file   :  Single file
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 28 		(Key = 4.1.3.0.)
+Test Case 25 		(Key = 4.1.4.0.)
    Flag Variant :  D
    Input file   :  Single file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 29 		(Key = 4.1.4.0.)
-   Flag Variant :  D
-   Input file   :  Single file
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 30 		(Key = 4.3.3.0.)
+Test Case 26 		(Key = 4.4.4.0.)
    Flag Variant :  D
    Input file   :  No file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 31 		(Key = 4.4.1.0.)
+Test Case 27 		(Key = 4.5.1.0.)
    Flag Variant :  D
    Input file   :  Hyphen
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 32 		(Key = 4.4.3.0.)
+Test Case 28 		(Key = 4.5.4.0.)
    Flag Variant :  D
    Input file   :  Hyphen
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 33 		(Key = 4.4.4.0.)
-   Flag Variant :  D
-   Input file   :  Hyphen
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 34 		(Key = 5.1.1.0.)
+Test Case 29 		(Key = 5.1.1.0.)
    Flag Variant :  cd
    Input file   :  Single file
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 35 		(Key = 5.1.3.0.)
+Test Case 30 		(Key = 5.1.4.0.)
    Flag Variant :  cd
    Input file   :  Single file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 36 		(Key = 5.1.4.0.)
-   Flag Variant :  cd
-   Input file   :  Single file
-   Output file  :  Hyphen
-   Edge Case    :  <n/a>
-
-
-Test Case 37 		(Key = 5.3.3.0.)
+Test Case 31 		(Key = 5.4.4.0.)
    Flag Variant :  cd
    Input file   :  No file
    Output file  :  No file
    Edge Case    :  <n/a>
 
 
-Test Case 38 		(Key = 5.4.1.0.)
+Test Case 32 		(Key = 5.5.1.0.)
    Flag Variant :  cd
    Input file   :  Hyphen
    Output file  :  Single file
    Edge Case    :  <n/a>
 
 
-Test Case 39 		(Key = 5.4.3.0.)
+Test Case 33 		(Key = 5.5.4.0.)
    Flag Variant :  cd
    Input file   :  Hyphen
    Output file  :  No file
-   Edge Case    :  <n/a>
-
-
-Test Case 40 		(Key = 5.4.4.0.)
-   Flag Variant :  cd
-   Input file   :  Hyphen
-   Output file  :  Hyphen
    Edge Case    :  <n/a>
 
