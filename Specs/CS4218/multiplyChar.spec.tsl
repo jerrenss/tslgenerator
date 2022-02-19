@@ -1,0 +1,38 @@
+
+Test Case 1  		<single>
+   Integer variant :  negative
+
+
+Test Case 2  		<single>
+   Integer variant :  zero
+
+
+Test Case 3  		(Key = 1.1.)
+   Character Variant :  lowercase
+   Integer variant   :  positive
+
+
+Test Case 4  		(Key = 2.1.)
+   Character Variant :  uppercase
+   Integer variant   :  positive
+
+
+Test Case 5  		(Key = 3.1.)
+   Character Variant :  number
+   Integer variant   :  positive
+
+
+Test Case 6  		(Key = 4.1.)
+   Character Variant :  whitespace
+   Integer variant   :  positive
+
+
+Test Case 7  		(Key = 5.1.)
+   Character Variant :  specialChar
+   Integer variant   :  positive
+
+
+Test Case 8  		(Key = 6.1.)
+   Character Variant :  escapeSequence
+   Integer variant   :  positive
+
