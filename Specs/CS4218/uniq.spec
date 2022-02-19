@@ -16,7 +16,7 @@
       Hyphen.
   Output file:
       Single file.      [if !noInFile]
-      Non-existent file.        [if !noInFile]
+      Non-existent file.        [if !noInFile][error]
       No file.
       Hyphen.       [if !noInFile]
 
