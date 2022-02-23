@@ -9,6 +9,7 @@
       Single file.
       Multiple files.
       Non existent file.     [error]
+      File with no read permission.     [error]
       Multiple files with some non-existent.   [error]
       No file.
       Single folder.   [error]
