@@ -12,6 +12,9 @@
       Multiple files.
       No such file.     [single]
       No file.
+      Single dot.   [error]
+      Double dot.   [error]
+      Single slash.   [error]
 
 # Folders
   Folder variant:
