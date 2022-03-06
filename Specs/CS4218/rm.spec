@@ -1,7 +1,7 @@
 # Flags
   Flag Variant:
       None.
-      r.
+      r.    [property hasRFlag]
       d.
       rd.   [single]
       Flags other than r and d.     [error]
@@ -12,9 +12,9 @@
       Multiple files.
       No such file.     [single]
       No file.
-      Single dot.   [error]
-      Double dot.   [error]
-      Single slash.   [error]
+      Single dot.   [if hasRFlag][error]
+      Double dot.   [if hasRFlag][error]
+      Single slash.   [if hasRFlag][error]
 
 # Folders
   Folder variant:

@@ -4,14 +4,16 @@
       c.
       d.
       D.
-      cd.
+      cd.   
       dD.       [single]
+      cD.   [error] 
       Flags other than c, d and D.     [error]
 
 # Files
   Input file:
       Single file.
       Non-existent file.        [error]
+      File no read permission.    [error]
       Folder.       [error]
       No file.     [property noInFile]
       Hyphen.

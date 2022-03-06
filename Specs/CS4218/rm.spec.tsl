@@ -11,15 +11,15 @@ Test Case 3  		<single>
    File variant :  No such file
 
 
-Test Case 4  		<error>
+Test Case 4  		<error>  (follows [if])
    File variant :  Single dot
 
 
-Test Case 5  		<error>
+Test Case 5  		<error>  (follows [if])
    File variant :  Double dot
 
 
-Test Case 6  		<error>
+Test Case 6  		<error>  (follows [if])
    File variant :  Single slash
 
 
