@@ -10,7 +10,8 @@
   File variant:
       Single file.
       Multiple files.
-      No such file.     [single]
+      No such file.     [error]
+      No write permission.     [error]
       No file.
       Single dot.   [if hasRFlag][error]
       Double dot.   [if hasRFlag][error]

@@ -21,6 +21,7 @@
       Single file.      [if !noInFile]
       Non-existent file.        [if !noInFile][single]
       Folder.       [if !noInFile][error]
+      No write permission.    [if !noInFile][error]
       No file.
       Hyphen.       [if !noInFile][single]
 
